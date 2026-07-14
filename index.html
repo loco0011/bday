@@ -207,12 +207,12 @@
       font-style: normal;
     }
 
-    /* ── LOVE NOTE ── */
+    /* ── TEAM NOTE ── */
     .love-note {
-      font-size: clamp(1.5rem, 4.5vw, 2.4rem);
+      font-size: clamp(1.3rem, 3.8vw, 2rem);
       font-weight: 400;
       font-family: Georgia, 'Times New Roman', serif;
-      letter-spacing: 0.04em;
+      letter-spacing: 0.02em;
       background: linear-gradient(90deg, #F8C8E0, #FFFFFF, #F8C8E0);
       background-size: 200% auto;
       -webkit-background-clip: text;
@@ -221,6 +221,7 @@
       animation: goldShine 5s linear infinite;
       filter: drop-shadow(0 0 18px rgba(255, 150, 200, 0.45));
       margin-top: 0.1rem;
+      max-width: 480px;
     }
 
     /* ── PANDAS ── */
@@ -293,7 +294,7 @@
 
 <section class="hero">
 
-  <div class="top-line">For you, always</div>
+  <div class="top-line">From your whole team</div>
 
   <div class="birthday-label">Happy &nbsp; Birthday</div>
 
@@ -303,7 +304,7 @@
 
   <div class="divider"></div>
 
-  <div class="love-note">aalaaabuuuuu &nbsp;♡</div>
+  <div class="love-note">Cheers to you, Ankita! 🎉</div>
 
   <div class="pandas">
     <span class="panda panda-left">🐼</span>
@@ -312,7 +313,7 @@
 
   <div class="verdict">
     <span class="verdict-dot"></span>
-    Warning · may cause uncontrollable smiling
+    With love, your team
     <span class="verdict-dot"></span>
   </div>
 
@@ -356,7 +357,7 @@
   requestAnimationFrame(drawStars);
 
   // ── FLOATING EMOJIS ───────────────────────────────────────
-  const EMOJIS = ['🎉','🎈','💖','✨','🌸','🎀','💝','🌟','💕','🫶','🥂','🌹'];
+  const EMOJIS = ['🎉','🎈','🎊','✨','🌸','🎀','🎁','🌟','🥳','🫶','🥂','🍰'];
   const floaters = document.getElementById('floaters');
 
   function spawnFloater() {
